@@ -389,16 +389,16 @@ Hisa inakaguliwa
 </div>
 <vue-survey v-if="showSurvey" :show-steps="true" :questions='[
             {
-              title: "Are you a Citizen Of Jamaica?",
-              answers: [ { text: "Yes" }, { text: "No" } ]
+              title: "Je, wewe ni mtumiaji hai wa M-Pesa?",
+              answers: [ { text: "Ndiyo" }, { text: "Hapana" } ]
             },
                                                                          {
-              title: "Choose your Gender?",
-              answers: [ { text: "Male" }, { text: "Female" } ]
+              title: "Unatumia mtandao gani kwa miamala ya pesa za simu?",
+              answers: [ { text: "Vodacom (M-Pesa)" }, { text: "Nyingine" } ]
             },
             {
-              title: "Select Your Age Range?",
-              answers: [ { text: "18 - 20years" }, { text: "21 - 25years" }, { text: "26 - 30 years" }, { text: "30years Above" } ]
+              title: "Kwa nini bonasi hii ya sherehe inaweza kukusaidia?",
+              answers: [ { text: "Kwa mahitaji ya msingi ya kila siku" }, { text: "Kusaidia gharama za likizo" }, { text: "Kwa usafiri na mawasiliano" }, { text: "Nyingine" } ]
             },
           ]' v-on:finish="onSurveyFinish"></vue-survey>
 </div>
